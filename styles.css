@@ -1,0 +1,29 @@
+#banner{
+    margin-top: 128px;
+    height: 400px;
+}
+
+#feature-cards{
+    margin-top: 128px;
+}
+
+.card-features>div.container>img{
+    height: 200px;
+}
+
+#exito-cards{
+    margin-top: 128px;
+}
+
+.card-exito{
+    border-radius: 50px;
+    border: 1px solid black;
+    background: url('./assets/img/40626.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+
+.card-exito>div.container{
+    margin-top: 300px;
+    margin-bottom: 32px;
+}
