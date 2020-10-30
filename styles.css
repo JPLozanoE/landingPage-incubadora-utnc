@@ -17,13 +17,26 @@
 
 .card-exito{
     border-radius: 50px;
-    border: 1px solid black;
-    background: url('./assets/img/40626.jpg');
+    border: 3px solid #cccccc;
+    /* background: url('./assets/img/40626.jpg'); */
     background-position: center;
     background-size: 100%;
+    background-color: #009380;
+    overflow: hidden;
 }
 
-.card-exito>div.container{
+.text-exito > h4{
+    color: white;
+}
+
+#banner-fluid{
+    margin-top: 128px;
+    background-color: #009380;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* .card-exito>div.container{
     margin-top: 300px;
     margin-bottom: 32px;
-}
+} */
