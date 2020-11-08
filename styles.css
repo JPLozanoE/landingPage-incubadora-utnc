@@ -24,6 +24,9 @@ nav{
     padding:20px;
     background-color:rgb(239, 239, 239);
     height: 100%;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
 }
 
 .card-features-1{
@@ -47,6 +50,7 @@ nav{
     background-size: 100%;
     background-color: #B58C45;
     overflow: hidden;
+    
 }
 
 .text-exito{
@@ -193,6 +197,14 @@ background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox=
 
 .grande{
     font-size:72px;
+}
+
+.btn-banner-inferior{
+    padding: 10px 40px;
+}
+
+.icono{
+    font-size: 1.5em;
 }
 
 /* .card-exito>div.container{
