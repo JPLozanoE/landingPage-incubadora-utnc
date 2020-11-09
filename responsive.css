@@ -7,3 +7,142 @@
         max-width: 1340px !important;
     }
 }
+
+@media only screen and (max-width: 1445px) {
+    h1.blanco.grande > strong{
+        font-size: 56px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    h1.blanco.grande > strong{
+        font-size: 54px;
+    }
+
+    h3{
+        font-size: 1.40em;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    #banner{
+        margin-top: 32px;
+    }
+    /* body{
+        background-color: red;
+    } */
+
+
+    #feature-cards > div.row, #exito-cards>div.row:nth-child(2){
+        display: flex;
+        justify-content: center;
+    }
+
+    #feature-cards > div.row >div:nth-child(3), #exito-cards>div.row:nth-child(2) >div:nth-child(3){
+    margin-top: 32px;
+    }
+
+    #call-to-action{
+        margin-top: 64px;
+        margin-bottom: 64px;
+        padding: 32px;
+    }
+
+    #call-to-action > div.container > div.row > div:first-child{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+        h1.blanco.grande > strong{
+        font-size: 39px;
+    }
+
+    h3{
+        font-size: 1.2em;
+    }
+
+    #img-footer{
+        width: 100% !important;
+    }
+
+    #row-img-banner-top{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    #feature-cards > div.row >div, #exito-cards>div.row:nth-child(2) >div{
+        margin-top: 32px;
+        }
+
+    .contenedor-iniciar{
+        width: 100%;
+    }
+
+    #feature-cards{
+        margin-top: 64px;
+    }
+
+    #call-to-action > div.container > div.row > div:first-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    #call-to-action > div.container > div.row > div:first-child > img {
+        width: 70% !important;
+    }
+
+    #footer{
+        margin-top: 32px;
+    }
+
+    #footer-contenido > div {
+        margin-top: 32px;
+        font-size: 20px;
+    }
+
+    div.footer-copyright{
+        margin-top: 32px;
+    }
+
+    #img-footer {
+        width: 60% !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .utnc{
+        display: none;
+    }
+
+    #navbar > a.navbar-brand{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .titulo{
+        font-size: 1.8rem;
+    }
+
+    h1.blanco.grande > strong {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .btn-banner-inferior {
+        font-size: 16px;
+    }
+
+    #img-footer {
+        width: 80% !important;
+    }
+
+    .oro{
+        text-align: center;
+    }
+}
