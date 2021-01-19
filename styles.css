@@ -241,6 +241,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox=
     margin-top:128px;
 }
 
+.icono22px{
+    font-size: 22px;
+}
+
 /* .card-exito>div.container{
     margin-top: 300px;
     margin-bottom: 32px;
